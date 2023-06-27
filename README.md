@@ -20,6 +20,8 @@ percentage should be derived from the initial allocation made.
 2. Rebalanced amount of each month if applicable.
 
 [Solution] (https://github.com/geektrust/coding-problem-artefacts/tree/master)
+[An Internal Link](https://github.com/geektrust/coding-problem-artefacts/tree/master)
+
 1. OOP-Based Solution in NodeJS
 2. Unit Tests in Jest
 3. Build
