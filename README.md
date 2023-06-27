@@ -1,3 +1,5 @@
+
+
 # MyMoney Challenge
 
 ## Problem Statement
@@ -17,7 +19,7 @@ percentage should be derived from the initial allocation made.
 1. Balanced amount of each fund for a certain month.
 2. Rebalanced amount of each month if applicable.
 
-## [Solution] (https://github.com/geektrust/coding-problem-artefacts/tree/master)
+## >[Solution] (https://github.com/geektrust/coding-problem-artefacts/tree/master)
 1. OOP-Based Solution in NodeJS
 2. Unit Tests in Jest
 3. Build
