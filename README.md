@@ -25,6 +25,9 @@ percentage should be derived from the initial allocation made.
 2. Unit Tests in Jest
 3. [Build](https://github.com/geektrust/coding-problem-artefacts/blob/master/NodeJS/README.md)
 
+#### Input Handler Class
+#### Portfolio Class
+
 ## Assumptions
 
 #### From Problem Statement
