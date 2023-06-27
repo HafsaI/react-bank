@@ -49,7 +49,7 @@ To run this project, clone the project locally:
 
 ```
 $ npm install
-$ node geektrust.js <sample_input/<input-file>
+$ node geektrust.js sample_input/<input-file>
 ```
 To test with Jest
 ```
