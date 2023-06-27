@@ -10,7 +10,7 @@ percentage should be derived from the initial allocation made.
 
 **Your program should take as input:**
 
-1. The money allocated in equity, debt and gold funds.
+1. The money allocated in equity, debt, and gold funds.
 2. Monthly SIP payments.
 3. Monthly change rate (loss or growth) for each type of fund.
 
@@ -26,7 +26,12 @@ percentage should be derived from the initial allocation made.
 3. [Build](https://github.com/geektrust/coding-problem-artefacts/blob/master/NodeJS/README.md)
 
 #### Input Handler Class
+- It parses the user input and calls relevant methods from the Portfolio class to update it according to user commands
 #### Portfolio Class
+- The constructor initializes attributes and sets desired weights according to the initial allocations
+- SIP
+- Calculates Monthly Balance
+- Balance and Rebalance 
 
 ## Assumptions
 
