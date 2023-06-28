@@ -46,12 +46,12 @@ percentage should be derived from the initial allocation made. [Detailed Problem
 #### Additional Assumptions Made
 
 1. Change percentages can be declared only once a month.
-2. The system only works for a single year as there is no way to distinguish between years from the input.
+2. The system only works for a single year (Jan - Dec) as there is no way to distinguish between years from the input.
 
 ## Programming Decisions
 
 1. Private attributes defined with a # in JS for encapsulation purposes.
-2. Asset amounts are stored in arrays as opposed to storing in 3 different variables to make it easier to scale the solution for more funds.
+2. Asset amounts are stored in arrays as opposed to storing in three separate variables to facilitate the scalability of the solution for additional funds.
 
 ## Setup
 
