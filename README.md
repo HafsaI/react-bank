@@ -29,7 +29,7 @@ percentage should be derived from the initial allocation made.
 - It parses the user input and calls relevant methods from the Portfolio class.
   
 #### Portfolio Class
-- The constructor initializes attributes and sets desired weights according to the initial allocations.
+- The constructor allocates initial funds and sets desired weights accordingly.
 - Sets fixed payments (SIP) for each of the three funds.
 - Calculates Monthly Balance by adding fixed amounts and monthly change.
 - Rebalances portfolio for months of June and August.
