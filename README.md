@@ -6,7 +6,7 @@
 
 MyMoney platform lets investors track their consolidated portfolio value across **equity**, **debt**, and **gold**. We need to
 ensure that the desired allocation percentages are equal to the actual percentages invested. The desired allocation
-percentage should be derived from the initial allocation made.
+percentage should be derived from the initial allocation made. [More](https://codu.ai/coding-problem/mymoney)
 
 **Your program should take as input:**
 
