@@ -26,20 +26,22 @@ percentage should be derived from the initial allocation made.
 3. [Build](https://github.com/geektrust/coding-problem-artefacts/blob/master/NodeJS/README.md)
 
 #### Input Handler Class
-- It parses the user input and calls relevant methods from the Portfolio class to update it according to user commands
+- It parses the user input and calls relevant methods from the Portfolio class.
+  
 #### Portfolio Class
-- The constructor initializes attributes and sets desired weights according to the initial allocations
-- SIP
-- Calculates Monthly Balance
-- Balance and Rebalance 
+- The constructor initializes attributes and sets desired weights according to the initial allocations.
+- Sets fixed payments (SIP) for each of the three funds.
+- Calculates Monthly Balance by adding fixed amounts and monthly change.
+- Rebalances portfolio for months of June and August.
+- Returns appropriate results for Balance and Rebalance commands.
 
 ## Assumptions
 
 #### From Problem Statement
 
-1. The money allocated in equity, debt and gold funds.
-2. Monthly SIP payments.
-3. Monthly change rate (loss or growth) for each type of fund.
+1. Balances are always floored to the nearest integers.
+2. The rebalancing happens on the 6th (June) and 12th (December) month.
+3. The allocation always happens from January, and SIP from February.
 
 #### Additional Assumptions Made
 
@@ -48,8 +50,8 @@ percentage should be derived from the initial allocation made.
 
 ## Programming Decisions
 
-1. Private attributes defined with a # in JS for encapsulation purposes
-2. Asset amounts are stored in arrays as opposed to storing in 3 different variables so that it's easier to scale the solution for more funds 
+1. Private attributes defined with a # in JS for encapsulation purposes.
+2. Asset amounts are stored in arrays as opposed to storing in 3 different variables to make it easier to scale the solution for more funds.
 
 ## Setup
 
